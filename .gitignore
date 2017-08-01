@@ -1,13 +1,11 @@
-backup/*
-!backup/.gitkeep
+/backup/*
+!/backup/.gitkeep
 
-swap/*
-!swap/.gitkeep
+/swap/*
+!/swap/.gitkeep
 
-undo/*
-!undo/.gitkeep
+/undo/*
+!/undo/.gitkeep
 
-.netrwhist
-
-autoload/pathogen.vim
+/.netrwhist
 

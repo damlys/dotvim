@@ -6,8 +6,9 @@ default:
 	rm -f ~/.gvimrc
 	ln -s ~/.vim/gvimrc ~/.gvimrc
 	git -C ~/.vim pull -q
-	curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 	git -C ~/.vim submodule -q init
 	git -C ~/.vim submodule -q update
-	@echo Completed, you can reset your Vim client now.
+
+download-pathogen:
+	curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
