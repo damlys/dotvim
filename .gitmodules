@@ -1,0 +1,3 @@
+[submodule "bundle/xoria256.vim"]
+	path = bundle/xoria256.vim
+	url = https://github.com/vim-scripts/xoria256.vim.git
