@@ -18,15 +18,15 @@
 
 ### Installing
 
-    $ git submodule add https://github.com/<username>/<repository>.git bundle/<repository>
+    $ git submodule add git@github.com:<username>/<repository>.git bundle/<repository>
 
 e.g.
 
-    $ git submodule add https://github.com/vim-scripts/xoria256.vim.git bundle/xoria256.vim
+    $ git submodule add git@github.com:vim-scripts/xoria256.vim.git bundle/xoria256.vim
 
 ### Installed plugins
 
-* [Pathogen](https://github.com/tpope/vim-pathogen) (the only plugin installed with curl instead of git submodules)
+* [Pathogen](https://github.com/tpope/vim-pathogen) (the only plugin installed without git submodules)
 
 ### Installed color schemes
 
