@@ -33,12 +33,6 @@ if has('persistent_undo')       " check if your vim version supports it
     set undodir=~/.vim/undo//   " directory where the undo files will be stored
 endif
 
-" VIM automatically enable the TAB for a makefile
-autocmd FileType make setlocal noexpandtab
-
-" Auto-remove trailing spaces
-autocmd BufWritePre * %s/\s\+$//e
-
 " Swap files out of the project root
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//

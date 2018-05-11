@@ -1,3 +1,7 @@
 [submodule "bundle/xoria256.vim"]
 	path = bundle/xoria256.vim
 	url = git@github.com:vim-scripts/xoria256.vim.git
+[submodule "bundle/editorconfig.vim"]
+	path = bundle/editorconfig.vim
+	url = git@github.com:editorconfig/editorconfig-vim.git
+
