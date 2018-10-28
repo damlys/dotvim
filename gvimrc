@@ -13,11 +13,11 @@ set guioptions-=b " Removes bottom (horizontal) scroll bar
 set linespace=10
 
 if has("win64") || has("win32") || has("win16")
-    " TODO
+  " TODO
 elseif has('mac')
-    set guifont=Menlo\ Regular:h14
+  set guifont=Menlo\ Regular:h14
 elseif has('unix')
-    set guifont=Ubuntu\ Mono\ Regular\ 13
+  set guifont=Ubuntu\ Mono\ Regular\ 13
 endif
 
 set antialias   " Smooth fonts

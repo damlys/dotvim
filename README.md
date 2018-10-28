@@ -4,25 +4,33 @@
 
 ### Installing
 
-    $ rm -rf ~/.vim
-    $ git clone git@github.com:<username>/dotvim.git ~/.vim
-    $ cd ~/.vim
-    $ make
+```
+$ rm -rf ~/.vim
+$ git clone git@github.com:<username>/dotvim.git ~/.vim
+$ cd ~/.vim
+$ make
+```
 
 ### Updating
 
-    $ cd ~/.vim
-    $ make
+```
+$ cd ~/.vim
+$ make
+```
 
 ## Bundles
 
 ### Installing
 
-    $ git submodule add git@github.com:<username>/<repository>.git bundle/<repository>
+```
+$ git submodule add git@github.com:<username>/<repository>.git bundle/<repository>
+```
 
 e.g.
 
-    $ git submodule add git@github.com:vim-scripts/xoria256.vim.git bundle/xoria256.vim
+```
+$ git submodule add git@github.com:vim-scripts/xoria256.vim.git bundle/xoria256.vim
+```
 
 ### Installed plugins
 
